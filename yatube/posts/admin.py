@@ -12,7 +12,7 @@ class PostAdmin(admin.ModelAdmin):
 
 
 class GroupAdmin(admin.ModelAdmin):
-    list_display = ('title', 'slug', 'description')
+    list_display = ('pk', 'title', 'slug', 'description')
     list_filter = ('title',)
     empty_value_display = '-пусто-'
 
